@@ -59,9 +59,10 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class="container">
-        <form method="POST" action="/">
-        <label>Enter to encrypt</label><br>        
-        <textarea rows="5" cols="25" placeholder="Type your message here..."></textarea>
+        <form method="POST" action="/" id = "Encform">
+        <label>Encrypter_4.0</label><br>  
+        <textarea rows="1" cols="16" placeholder="Key here..." name = "key" form = "Encform"></textarea>      
+        <textarea rows="5" cols="25" placeholder="Type your text to encrypt or decrypt here..." name = "textin" form = "Encform"></textarea>
         <input type="submit" value="Encrypt">
         </form>
         </div>
